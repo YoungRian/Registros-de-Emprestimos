@@ -1,2 +1,2 @@
-# Registros-de-Empr-stimos
+# Registros-de-Emprestimos
 Projetando um sistema para registros de emprestimos.
