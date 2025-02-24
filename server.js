@@ -1,7 +1,8 @@
 console.log("Iniciando o servidor...");
 
-
+// Carregar as variáveis de ambiente do arquivo .env
 require("dotenv").config();
+
 const express = require("express");
 const mysql = require("mysql");
 const cors = require("cors");
@@ -49,7 +50,7 @@ app.post("/add_individual", (req, res) => {
 });
 
 // Iniciar o servidor
-const PORT = process.env.PORT || 3001;
-app.listen(3001, () => {
+const PORT = process.env.PORT || 3002;
+app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
 });
