@@ -1,6 +1,26 @@
 {
   "dependencies": {
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "mysql": "^2.18.1"
-  }
+  },
+  "name": "registros-de-empr-stimos",
+  "version": "1.0.0",
+  "description": "Projetando um sistema para registros de emprestimos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungRian/Registros-de-Empr-stimos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungRian/Registros-de-Empr-stimos/issues"
+  },
+  "homepage": "https://github.com/YoungRian/Registros-de-Empr-stimos#readme"
 }
